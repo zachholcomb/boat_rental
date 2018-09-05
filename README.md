@@ -78,7 +78,7 @@ pry(main)> dock.max_rental_time
 
 Use TDD to update your `Dock` class so that it can calculate revenue. A `Dock` earns revenue for each `Boat` that it rents based on the following rules:
 
-* A `Dock` charges based on how long the `Boat` was rented. A `Boat` can be rented for no longer than the `Dock`'s `max_rental_time`. For instance, if the `max_rental_time` is `3` and a `Boat` is out for `5` hours, the `Boat` will only be charged for `3` hours.
+* A `Dock` charges based on how long the `Boat` was rented. A `Boat` can be charged for no longer than the `Dock`'s `max_rental_time`. For instance, if the `max_rental_time` is `3` and a `Boat` is out for `5` hours, the `Boat` will only be charged for `3` hours.
 * A `Dock` charges the `Boat`'s `price_per_hour` for each hour rented (up to the `max_rental_time`).
 * When the `Dock`'s `rent` method is called, it begins tracking how long the `Boat` is rented for.
 * When the `Dock`'s `return` method is called, the `Dock` stops tracking how long the `Boat` is rented for.
