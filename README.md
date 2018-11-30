@@ -55,7 +55,10 @@ pry(main)> renter.credit_card_number
 
 ## Iteration 2
 
-Use TDD to create a `Dock` class that responds to the following interaction pattern:
+Use TDD to create a `Dock` class. It should have the following methods:
+
+* `rent` - this method takes a `Boat` and a `Renter` as arguments. Calling this method signifies that the `Boat` has been rented by the `Renter`.
+* `rental_log` - this method returns a hash that associates a `Boat` with the `Renter` that rented it.
 
 ```ruby
 pry(main)> require './lib/dock'
