@@ -116,7 +116,7 @@ Use TDD to implement a `Dock#charge` method:
 * This method takes a `Boat` as an argument
 * This method returns a hash with two key/value pairs:
   * The key `:card_number` points to the credit card number of the `Renter` that rented the boat
-  * The key `:amount` points to the amount that should be charged. The amount is calculated by multiplying Boat's price_per_hour by the number of hours it was rented. However, any hours past the Dock's max_rental_time should not be counted. So if a Boat is rented for 4 hours, and the max_rental_time is 3, the charge should only be for 3 hours.
+  * The key `:amount` points to the amount that should be charged. The amount is calculated by multiplying the Boat's price_per_hour by the number of hours it was rented. However, any hours past the Dock's max_rental_time should not be counted. So if a Boat is rented for 4 hours, and the max_rental_time is 3, the charge should only be for 3 hours.
 
 The `Dock` class should respond to the following interaction pattern:
 
