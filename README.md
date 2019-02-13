@@ -2,7 +2,7 @@
 
 ## Setup
 
-* Fork [this Repository](https://github.com/turingschool-examples/boat_rental)
+* Fork this Repository
 * Clone YOUR fork
 * Compete the activity below
 * Push your solution to your fork
